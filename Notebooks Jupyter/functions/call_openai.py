@@ -36,8 +36,8 @@ def call_openai_api(
 
     
     # Charger les variables d'environnement
-    api_key = "GJyIapLqFpG0FtWbxOyulHaHTm6Jto0YRN91YCLyiHQ7GTUkuGDMJQQJ99BCAC5T7U2XJ3w3AAABACOGo2Pg"
-    azure_endpoint = "https://instancehackatonpionners01.openai.azure.com/"
+    api_key = api_key
+    azure_endpoint = api_endpoint
 
     if not api_key:
         logger.error("Clé API manquante dans les variables d'environnement.")
